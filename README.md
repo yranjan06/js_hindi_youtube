@@ -1,2 +1,2 @@
-# js_hindi_youtube_01
+# js_hindi_youtube
 A code repo for Javascript series at Chai aur Code
