@@ -23,16 +23,48 @@ console.log(id === anotherId);
 // Array, Objects, Functions
 
 
-const heros = ["Shaktiman", "Nagraj", "Doga"]
-let myObj = {
-    name:"Ranjan",
-    age : 25,
-}
+// const heros = ["Shaktiman", "Nagraj", "Doga"]
+// let myObj = {
+//     name:"Ranjan",
+//     age : 25,
+// }
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
     
+// }
+
+
+// console.log(typeof myFunction );
+
+
+
+//********************************************************************* */
+
+
+// Stack (Primitive), Heap (Non-Primitive).       * stack will give the copy but Heap will give the referance
+
+let anotherName = "MyYoutub"
+anotherName = "RANJAN_01_CHANNEL"
+
+// console.log(myYoutube);
+console.log(anotherName);
+
+
+
+let userone = {
+    email: "user1@gmail.com",
+    upi:"user@ybl"
 }
 
+let usertwo = userone
 
-console.log(typeof myFunction );
+usertwo.email = "ranjan@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
+
+
